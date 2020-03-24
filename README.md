@@ -1,1 +1,1 @@
-[ytp-plus.github.io](ytp-plus.github.io)
+[ytp-plus.github.io](https://ytp-plus.github.io)
