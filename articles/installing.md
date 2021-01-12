@@ -40,10 +40,10 @@ brew install node git
 cd ~/Desktop
 curl --show-error --location https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/YTPPlusStudio.love --output YTPPlusStudio.love
 #install ytp+ cli
-cd ~/Library/Application Support
-mkdir LOVE
+cd ~/Library/Application\ Support
+mkdir -p LOVE
 cd LOVE
-mkdir ytpplusstudio_0
+mkdir -p ytpplusstudio_0
 cd ytpplusstudio_0
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git
 cd ./YTPPlusCLI
