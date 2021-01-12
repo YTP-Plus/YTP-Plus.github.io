@@ -37,13 +37,17 @@ brew doctor
 read -p "Please follow any advisories given by the above (brew doctor) before continuing. Press any key to continue..."
 export PATH="/usr/local/bin:$PATH"
 brew install node git
-mkdir ./YTPPlusStudio
-cd ./YTPPlusStudio
+cd ~/Desktop
 curl --show-error --location https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/YTPPlusStudio.love --output YTPPlusStudio.love
+#install ytp+ cli
+cd ~/Library/Application Support
+mkdir LOVE
+cd LOVE
+mkdir ytpplusstudio_0
+cd ytpplusstudio_0
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git
 cd ./YTPPlusCLI
 npm install #feel free to use the '--global' flag to use ytp+ cli standalone (as the 'ytpplus' command)
-open ./
 #install love
 mkdir -p /tmp/love2d
 cd /tmp/love2d
