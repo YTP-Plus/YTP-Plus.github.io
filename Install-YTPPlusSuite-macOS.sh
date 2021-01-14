@@ -1,10 +1,13 @@
 #!/bin/sh
+if ! command -v brew &> /dev/null
+then
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" #installs homebrew -- remove if already installed
 brew update
 brew doctor
 read -p "Please follow any advisories given by the above (brew doctor) before continuing. Press any key to continue..."
 export PATH="/usr/local/bin:$PATH"
 brew install node git
+fi
 cd ~/Desktop
 curl --show-error --location https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/YTPPlusStudio.love --output YTPPlusStudio.love
 #install ytp+ cli
@@ -16,6 +19,8 @@ cd ytpplusstudio_0
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git
 cd ./YTPPlusCLI
 npm install #feel free to use the '--global' flag to use ytp+ cli standalone (as the 'ytpplus' command)
+curl --show-error --location https://ytp-plus.github.io/hotfix.zip > hotfix.zip #temporary hotfix
+unzip hotfix.zip
 #install love
 mkdir -p /tmp/love2d
 cd /tmp/love2d

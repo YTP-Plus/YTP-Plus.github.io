@@ -24,7 +24,7 @@ ytp+ studio, ytp+ cli, ytp+ suite installer, and YTP++ are all licensed under th
 * [LOVE](https://love2d.org/)
     * [View licence](https://raw.githubusercontent.com/love2d/love/master/license.txt)
 
-* [MediaInfo](https://mediaarea.net/)
+* [MediaInfo](https://mediaarea.net/en/MediaInfo)
     * [View license](https://mediaarea.net/en/MediaInfo/License)
 
 * [NodeJS](https://nodejs.org/)
