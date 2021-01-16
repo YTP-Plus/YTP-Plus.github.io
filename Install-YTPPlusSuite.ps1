@@ -36,8 +36,11 @@ if(Get-Command "git" -errorAction SilentlyContinue) {
         git clone "https://github.com/YTP-Plus/YTPPlusCLI.git" $installDirectory
     }
     Set-Location $installDirectory
+
+    git stash
     git pull origin main
-    npm install
+    git stash pop
+    npm install #Any issues with npm install? Delete node_modules/ and retry.
 
     # Hotfix
 
@@ -66,6 +69,9 @@ if(Get-Command "git" -errorAction SilentlyContinue) {
     $shortcut.Save()
 
     Remove-Item $zipFile
+
+    Write-Output "ytp+ suite installation successful!"
+    Pause
 }
 else {
     Write-Output "Please restart your PC and re-execute this script to refresh environment variables."

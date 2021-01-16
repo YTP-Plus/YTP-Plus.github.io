@@ -16,9 +16,16 @@ mkdir -p LOVE
 cd LOVE
 mkdir -p ytpplusstudio_0
 cd ytpplusstudio_0
+if [ -d "./YTPPlusCLI" ]
+then
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git
+fi
 cd ./YTPPlusCLI
+git stash #store local changes
+git pull origin main #get new changes
+git stash pop #re-implement local changes
 npm install #feel free to use the '--global' flag to use ytp+ cli standalone (as the 'ytpplus' command)
+#any issues with npm install? delete node_modules/ and retry
 curl --show-error --location https://ytp-plus.github.io/hotfix.zip > hotfix.zip #temporary hotfix
 unzip hotfix.zip
 #install love
@@ -32,4 +39,4 @@ rm love2d.zip
 mv love.app LÖVE.app
 ln -s /Applications/ Applications
 open ./
-read -p "Install LÖVE by dragging it into your Applications folder. Once it is finished, you may press a key to exit. To launch ytp+ studio, open the .love file."
+read -p "ytp+ suite installation successful! Install LÖVE by dragging it into your Applications folder. Once it is finished, you may press a key to exit. To launch ytp+ studio, open the .love file on your Desktop."
