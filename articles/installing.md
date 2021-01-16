@@ -31,7 +31,7 @@ cd ..
 love ~/YTPPlusStudio.love
 ```
 
-!> These commands will install [LÖVE](https://love2d.org/), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI), and a temporary hotfix.
+!> These commands will install [LOVE](https://love2d.org/), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI), and a temporary hotfix.
 
 To install and run on macOS, execute this bash script: (or download [here](https://ytp-plus.github.io/Install-YTPPlusSuite-macOS.sh))
 
@@ -39,6 +39,6 @@ To install and run on macOS, execute this bash script: (or download [here](https
 bash <(curl -s https://ytp-plus.github.io/Install-YTPPlusSuite-macOS.sh)
 ```
 
-!> This script will install [Homebrew](https://brew.sh/) (if not already installed), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [LÖVE](https://love2d.org/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI), and a temporary hotfix.
+!> This script will install [Homebrew](https://brew.sh/) (if not already installed), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [LOVE](https://love2d.org/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI), and a temporary hotfix.
 
 More detailed and updating instructions are to come soon.

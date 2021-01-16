@@ -511,12 +511,7 @@ section.cover.show {
   display: flex;
 }
 section.cover.has-mask .mask {
-  background-color: #3f3f3f;
-  opacity: 0.8;
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
+  display: none;
 }
 section.cover .cover-main {
   flex: 1;

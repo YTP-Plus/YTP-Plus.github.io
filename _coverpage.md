@@ -14,4 +14,4 @@
 [download ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/windows.zip)
 [github](https://github.com/YTP-Plus/)
 
-![](assets/tiledbg.png)
+![](assets/tiledbg.gif)
