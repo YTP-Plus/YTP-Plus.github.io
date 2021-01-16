@@ -40,7 +40,7 @@ You may update using the same scripts, however if that is not functional you may
 	* You're finished!
 * ytp+ cli
 	* Determine if you need a new version, check the [version.txt on GitHub](https://github.com/YTP-Plus/YTPPlusCLI/blob/main/version.txt) and compare it to your ytp+ cli's version.txt file.
-	* Open a terminal (or ``cmd`` on Windows) and navigate (``cd <directory>``) to your ytp+ cli directory (usually YTPPlusCLI, on non-Windows platforms this is present in ``~/.local/share/love/ytpplusstudio_0/``)
+	* Open a terminal (or ``cmd`` on Windows) and navigate (``cd <directory>``) to your ytp+ cli directory (usually YTPPlusCLI, on non-Windows platforms this is present in ``~/.local/share/love/ytpplusstudio_0/`` and on macOS in ``~/Library/Application Support/LOVE/ytpplusstudio_0)``)
 	* Run the following commands in order: 
 		```bash
 		git stash
