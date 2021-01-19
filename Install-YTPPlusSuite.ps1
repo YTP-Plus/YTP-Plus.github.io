@@ -13,8 +13,6 @@ $extractShell = New-Object -ComObject Shell.Application
 $shortcutLnk = $shellObject.SpecialFolders("AllUsersPrograms") + "\ytp+ studio.lnk"
 $installUrl = "https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/windows.zip"
 $zipFile = $env:TEMP + "\" + $(Split-Path -Path $installUrl -Leaf)
-$hotfix = "https://ytp-plus.github.io/hotfix.zip"
-$hotfixFile = $env:TEMP + "\" + $(Split-Path -Path $hotfix -Leaf)
 
 if(!(Get-Command "choco" -errorAction SilentlyContinue)) {
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -41,16 +39,6 @@ if(Get-Command "git" -errorAction SilentlyContinue) {
     git pull origin main
     git stash pop
     npm install #Any issues with npm install? Delete node_modules/ and retry.
-
-    # Hotfix
-
-    Invoke-WebRequest -Uri $hotfix -OutFile $hotfixFile
-    $fullPathHF = [IO.Path]::GetFullPath($hotfixFile)
-    $namespaceHF = $extractShell.Namespace($fullPathHF)
-    $filesHF = $namespaceHF.Items()
-    $extractShell.NameSpace($installDirectory).CopyHere($filesHF, 0x14)
-
-    Write-Output "Ignore any lzma-native errors as they are caused by a temporary fix."
 
     Set-Location $originalDir
     Invoke-WebRequest -Uri $installUrl -OutFile $zipFile

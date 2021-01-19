@@ -20,11 +20,6 @@ git pull origin main #get new changes
 git stash pop #re-implement local changes
 npm install #feel free to use the '--global' flag to use ytp+ cli standalone (as the 'ytpplus' command)
 #any issues with npm install? delete node_modules/ and retry
-
-#temporary hotfix
-wget https://ytp-plus.github.io/hotfix.zip
-tar -zxvf hotfix.zip
-
 cd ~/Desktop/
 love ./YTPPlusStudio.love
 read -p "ytp+ suite installation successful!"

@@ -7,7 +7,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 
 !> As with any Powershell script, you should check to make sure the [script file](https://ytp-plus.github.io/Install-YTPPlusSuite.ps1) is safe to use and execute on your pc.
 
-?>This script will install [Chocolatey](https://chocolatey.org/), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI), and a temporary hotfix.
+?>This script will install [Chocolatey](https://chocolatey.org/), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), and [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI).
 </br>There may be an error regarding lzma-native, if possible this can be ignored.
 </br>ytp+ studio will be present inside of your Start Menu after completion.
 
@@ -18,7 +18,7 @@ bash <(curl -s https://ytp-plus.github.io/Install-YTPPlusSuite-Debian.sh)
 ```
 
 
-?> This script will install [LOVE](https://love2d.org/), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI), and a temporary hotfix.
+?> This script will install [LOVE](https://love2d.org/), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), and [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI).
 </br>ytp+ studio will be present inside of your user Desktop folder after completion.
 
 To install on macOS, execute this bash script: (or download [here](https://ytp-plus.github.io/Install-YTPPlusSuite-macOS.sh))
@@ -27,7 +27,7 @@ To install on macOS, execute this bash script: (or download [here](https://ytp-p
 bash <(curl -s https://ytp-plus.github.io/Install-YTPPlusSuite-macOS.sh)
 ```
 
-?> This script will install [Homebrew](https://brew.sh/) (if not already installed), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [LOVE](https://love2d.org/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI), and a temporary hotfix.
+?> This script will install [Homebrew](https://brew.sh/) (if not already installed), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [LOVE](https://love2d.org/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), and [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI).
 </br>ytp+ studio will be present inside of your user Desktop folder after completion.
 
 ## Updating ytp+ suite
