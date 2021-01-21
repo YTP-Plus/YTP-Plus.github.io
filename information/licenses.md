@@ -29,3 +29,7 @@ ytp+ studio, ytp+ cli, ytp+ suite installer, and YTP++ are all licensed under th
 
 * [NodeJS](https://nodejs.org/)
     * [View license](https://raw.githubusercontent.com/nodejs/node/master/LICENSE)
+
+#  Media Credits
+
+* [Royalty Free Music from Bensound](https://www.bensound.com/)
