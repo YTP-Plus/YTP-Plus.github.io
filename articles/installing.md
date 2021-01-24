@@ -49,6 +49,10 @@ You may update using the same scripts, however if that is not functional you may
 		```
 	* You're finished!
 
+## ytp+ infinity
+
+This section is TBD.
+
 ## Help & Support
 
 Submit an issue on [GitHub](https://github.com/YTP-Plus).
