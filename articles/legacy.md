@@ -9,6 +9,7 @@ They may be found on the [organization page for ytp+ (YTP-Plus)](https://github.
 |   Features   |ytp+ infinity|ytp+ studio/cli|YTP++|YTP+ Classic|YTP-|
 |--------------|--------------|---------------|-----|------------|----|
 |Video Generation|    ✅      |    ✅         |  ✅ |    ✅     | ✅ |
+|   Live Feed   |    ✅      |    ❌         |  ❌ |    ❌     | ❌ |
 |Plugin Support|      ✅      |      ✅       |  ✅  |    ❌    | ❌ |
 |Spaces Allowed|      ✅      |     ✅        |  ❌  |    ❌    | ❔  |
 |  All-in-one* |      ❌      |      ❌       |  ✅  |    ✅    | ❌ |

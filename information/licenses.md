@@ -6,7 +6,7 @@ This page uses [docsify](https://github.com/docsifyjs/docsify) under the [MIT Li
 
 YTP- is licensed under the [MIT License](https://raw.githubusercontent.com/YTP-Plus/YTPMinus/master/LICENSE).
 
-ytp+ studio, ytp+ cli, ytp+ suite installer, and YTP++ are all licensed under the [GNU General Public License Version 3](https://raw.githubusercontent.com/YTP-Plus/YTPPlusStudio/master/LICENSE).
+ytp+ studio, ytp+ cli, ytp+ infinity, and YTP++ are all licensed under the [GNU General Public License Version 3](https://raw.githubusercontent.com/YTP-Plus/YTPPlusStudio/master/LICENSE).
 
 **All ytp+ applications may make use of the following software using their licenses:**
 
