@@ -5,6 +5,8 @@ To install on Windows, use the Powershell installer script below:
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ytp-plus.github.io/Install-YTPPlusSuite.ps1'))
 ```
 
+**PLEASE ``cd`` TO THE DIRECTORY YOU WANT TO INSTALL ``YTPPlusStudio`` AS A SUBFOLDER INTO! ``C:\Windows\System32`` IS NOT VALID!**
+
 !> As with any Powershell script, you should check to make sure the [script file](https://ytp-plus.github.io/Install-YTPPlusSuite.ps1) is safe to use and execute on your pc.
 
 ?>This script will install [Chocolatey](https://chocolatey.org/), [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/), [ytp+ studio](https://github.com/YTP-Plus/YTPPlusStudio), and [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI).

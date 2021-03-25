@@ -33,3 +33,5 @@ ytp+ studio, ytp+ cli, ytp+ infinity, and YTP++ are all licensed under the [GNU 
 #  Media Credits
 
 * [Royalty Free Music from Bensound](https://www.bensound.com/)
+
+* [Sound effects for ytp+ studio by GMM2003](https://github.com/GMM2003)
