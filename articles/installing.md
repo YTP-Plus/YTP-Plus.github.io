@@ -5,7 +5,9 @@ To install on Windows, use the Powershell installer script below:
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ytp-plus.github.io/Install-YTPPlusSuite.ps1'))
 ```
 
-**PLEASE ``cd`` TO THE DIRECTORY YOU WANT TO INSTALL ``YTPPlusStudio`` AS A SUBFOLDER INTO! ``C:\Windows\System32`` IS NOT VALID!**
+**RUN THIS SCRIPT AS ADMINISTRATOR - IT WILL INSTALL TO ``C:\Windows\System32\..\..\YTPPlusStudio`` (aka ``C:\YTPPlusStudio``)**
+
+**DO NOT RENAME ``YTPPlusStudio`` OR EXPECT BUGS!**
 
 !> As with any Powershell script, you should check to make sure the [script file](https://ytp-plus.github.io/Install-YTPPlusSuite.ps1) is safe to use and execute on your pc.
 

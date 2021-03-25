@@ -1,5 +1,4 @@
-$originalDir = $PSScriptRoot
-$rootDir = ".\YTPPlusStudio"
+$rootDir = "..\..\YTPPlusStudio"
 
 if (!(Test-Path $rootDir)) {
     New-Item -Path $(Split-Path -Path $rootDir) -Name $(Split-Path -Path $rootDir -Leaf) -ItemType "directory"
@@ -40,7 +39,6 @@ if(Get-Command "git" -errorAction SilentlyContinue) {
     git stash pop
     npm install #Any issues with npm install? Delete node_modules/ and retry.
 
-    Set-Location $originalDir
     Invoke-WebRequest -Uri $installUrl -OutFile $zipFile
     $fullPath = [IO.Path]::GetFullPath($zipFile)
     $namespace = $extractShell.Namespace($fullPath)
