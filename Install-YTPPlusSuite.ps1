@@ -52,6 +52,7 @@ if(Get-Command "git" -errorAction SilentlyContinue) {
     $shortcut = $shellObject.CreateShortcut($shortcutLnk)
     $shortcut.IconLocation = [IO.Path]::GetFullPath($fullRootDir+"\YTPPlusStudio.exe")
     $shortcut.TargetPath = [IO.Path]::GetFullPath($fullRootDir+"\YTPPlusStudio.exe")
+    $shortcut.WorkingDirectory = [IO.Path]::GetFullPath($fullRootDir)
     $shortcut.Save()
 
     Remove-Item $zipFile
