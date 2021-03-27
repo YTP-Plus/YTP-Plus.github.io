@@ -8,9 +8,9 @@ Submit plugins at [ytp+ hub](https://discord.gg/8ppmspR6Wh) for manual review.
 
 ## Official
 
-* [squidward.js](https://ytp-plus.github.io/plugins/squidward-v1.0.2.zip) v1.0.2
-    * Replicates the 'Squidward fad' meme as an effect - a relic from YTP past.
-    * Requires ytp+ cli v0.3.4 and ImageMagick (see included README.txt).
+* [distort.js](https://ytp-plus.github.io/plugins/distort-v1.1.0.zip) v1.1.0
+    * Distorts the video overtime to the beat of music.
+    * Requires ytp+ cli v1.2.1 and ImageMagick (see included README.txt).
     * Not supported in ytp+ infinity (causes desync issues).
     * Created by [TeamPopplio](https://github.com/TeamPopplio/).
 
