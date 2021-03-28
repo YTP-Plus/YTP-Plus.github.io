@@ -15,7 +15,7 @@ Submit plugins at [ytp+ hub](https://discord.gg/8ppmspR6Wh) for manual review.
 
 ## Community
 
-* [distort.js](https://ytp-plus.github.io/plugins/robotdelay-v1.0.0.zip) v1.0.0
+* [robotdelay.js](https://ytp-plus.github.io/plugins/robotdelay-v1.0.0.zip) v1.0.0
     * Replicates the "Robot" preset from VEGAS' "ExpressFX Delay" audio effect.
     * Requires ytp+ cli v1.2.1.
     * Created by [The British YTPer](https://www.youtube.com/channel/UCdkTD6Jfl0f9kOZxGmLo5rQ/).
