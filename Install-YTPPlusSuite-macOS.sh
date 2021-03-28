@@ -14,8 +14,8 @@ curl --show-error --location https://github.com/YTP-Plus/YTPPlusStudio/releases/
 cd ~/Library/Application\ Support
 mkdir -p LOVE
 cd LOVE
-mkdir -p ytpplusstudio_0
-cd ytpplusstudio_0
+mkdir -p ytpplusstudio_1
+cd ytpplusstudio_1
 if [ -d "./YTPPlusCLI" ]
 then
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git

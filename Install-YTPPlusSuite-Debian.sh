@@ -8,8 +8,8 @@ cd ..
 cd ./.local/share/
 mkdir ./love
 cd ./love/
-mkdir ./ytpplusstudio_0
-cd ./ytpplusstudio_0 #needs to be in this place on non-windows platforms
+mkdir ./ytpplusstudio_1
+cd ./ytpplusstudio_1 #needs to be in this place on non-windows platforms
 if [ -d "./YTPPlusCLI" ]
 then
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git
