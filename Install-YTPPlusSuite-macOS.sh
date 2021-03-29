@@ -22,6 +22,15 @@ git stash #store local changes
 git pull origin main #get new changes
 git stash pop #re-implement local changes
 npm install #feel free to use the '--global' flag to use ytp+ cli standalone (as the 'ytpplus' command)
+mkdir ./node_modules
+cd ./node_modules
+mkdir ./ffmpeg-cli
+cd ffmpeg-cli
+mkdir ffmpeg
+cd ffmpeg
+OUTPUT=$(which ffmpeg)
+cp ${OUTPUT} ./ffmpeg
+cd ./../../.. #YTPPlusCLI
 #any issues with npm install? delete node_modules/ and retry
 #install love
 mkdir -p /tmp/love2d
