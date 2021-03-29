@@ -6,7 +6,7 @@ brew update
 brew doctor
 read -p "Please follow any advisories given by the above (brew doctor) before continuing. Press any key to continue..."
 export PATH="/usr/local/bin:$PATH"
-brew install node git
+brew install node git frei0r ffmpeg
 fi
 cd ~/Desktop
 curl --show-error --location https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/YTPPlusStudio.love --output YTPPlusStudio.love
@@ -16,14 +16,20 @@ mkdir -p LOVE
 cd LOVE
 mkdir -p ytpplusstudio_1
 cd ytpplusstudio_1
-if [ -d "./YTPPlusCLI" ]
-then
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git
-fi
 cd ./YTPPlusCLI
 git stash #store local changes
 git pull origin main #get new changes
 git stash pop #re-implement local changes
+mkdir ./node_modules
+cd ./node_modules
+mkdir ./ffmpeg-cli
+cd ffmpeg-cli
+mkdir ffmpeg
+cd ffmpeg
+OUTPUT=$(which ffmpeg)
+cp ${OUTPUT} ./ffmpeg
+cd ./../../.. #YTPPlusCLI
 npm install #feel free to use the '--global' flag to use ytp+ cli standalone (as the 'ytpplus' command)
 #any issues with npm install? delete node_modules/ and retry
 #install love

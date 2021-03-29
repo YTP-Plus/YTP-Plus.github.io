@@ -30,6 +30,9 @@ ytp+ studio, ytp+ cli, ytp+ infinity, and YTP++ are all licensed under the [GNU 
 * [NodeJS](https://nodejs.org/)
     * [View license](https://raw.githubusercontent.com/nodejs/node/master/LICENSE)
 
+* [NoobHub](https://github.com/Overtorment/NoobHub)
+    * [View license](http://www.wtfpl.net/txt/copying/)
+
 #  Media Credits
 
 * [Royalty Free Music from Bensound](https://www.bensound.com/)
