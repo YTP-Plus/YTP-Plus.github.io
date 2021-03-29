@@ -6,16 +6,23 @@ brew update
 brew doctor
 read -p "Please follow any advisories given by the above (brew doctor) before continuing. Press any key to continue..."
 export PATH="/usr/local/bin:$PATH"
-brew install node git frei0r ffmpeg
+brew install node git frei0r ffmpeg mediainfo
 fi
 cd ~/Desktop
-curl --show-error --location https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/YTPPlusStudio.love --output YTPPlusStudio.love
+cat > start-ytpplusstudio.sh <<EOF
+#!/bin/sh
+cd ~/.local/share/love/ytpplusstudio_1
+love ./YTPPlusStudio.love
+EOF
+chmod +x ./start-ytpplusstudio.sh
+#curl --show-error --location https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/YTPPlusStudio.love --output YTPPlusStudio.love
 #install ytp+ cli
 cd ~/Library/Application\ Support
 mkdir -p LOVE
 cd LOVE
 mkdir -p ytpplusstudio_1
 cd ytpplusstudio_1
+curl --show-error --location https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/YTPPlusStudio.love --output YTPPlusStudio.love
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git
 cd ./YTPPlusCLI
 git stash #store local changes
