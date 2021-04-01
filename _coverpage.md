@@ -11,7 +11,7 @@
 - scroll down to view documentation.
 
 [ytp+ cli](https://github.com/YTP-Plus/YTPPlusCLI)
-[download ytp+ studio](https://ytp-plus.github.io/#/articles/installing)
+[install](/articles/installing)
 [github](https://github.com/YTP-Plus/)
 
 ![](assets/tiledbg.gif)

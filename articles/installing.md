@@ -1,4 +1,25 @@
-# Installation and Setup
+# The ytp+ launcher
+
+There is now a launcher available for ytp+ studio and ytp+ cli, try it out [here](https://github.com/YTP-Plus/YTPPlusLauncher/releases)!
+
+* Launcher prerequisites:
+	* [Node.js](https://nodejs.org/) (To install and launch ytp+ cli)
+	* [Git](https://git-scm.com/) (To download ytp+ cli)
+
+* Non-Windows platform (macOS, Linux, etc) prerequisites:
+	* All of the above, plus...
+	* [npm](https://nodejs.org/en/) (To install ytp+ cli)
+	* [LOVE](https://love2d.org/) (To launch the installer and ytp+ studio)
+
+ytp+ studio will be downloaded/updated inside of your application data folder under ``/LOVE/ytpplusstudio_1/`` (This is also where its save data is stored)
+
+ytp+ cli will be downloaded/updated inside of your application data folder under ``/LOVE/ytpplusstudio_1/YTPPlusCLI/`` using the \*.love file or ``<Launcher Directory>/YTPPlusCLI/`` using the \*.exe on Windows.
+
+Need help with using the launcher? Join our [Discord](https://discord.gg/8ppmspR6Wh)!
+
+# Legacy (Not recommended!)
+
+!> **This is no longer recommended and support may not be guaranteed!**
 
 To install on Windows, use the Powershell installer script below:
 ```powershell
@@ -6,8 +27,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 ```
 
 **RUN THIS SCRIPT AS ADMINISTRATOR - IT WILL INSTALL TO ``C:\Windows\System32\..\..\YTPPlusStudio`` (aka ``C:\YTPPlusStudio``)**
-
-**DO NOT RENAME ``YTPPlusStudio`` OR EXPECT BUGS!**
 
 !> As with any Powershell script, you should check to make sure the [script file](https://ytp-plus.github.io/Install-YTPPlusSuite.ps1) is safe to use and execute on your pc.
 
@@ -53,11 +72,7 @@ You may update using the same scripts, however if that is not functional you may
 		```
 	* You're finished!
 
-## ytp+ infinity
-
-This section is TBD.
-
-## Help & Support
+# Help & Support
 
 Submit an issue on [GitHub](https://github.com/YTP-Plus).
 
