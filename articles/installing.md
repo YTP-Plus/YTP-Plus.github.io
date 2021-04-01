@@ -10,6 +10,10 @@ There is now a launcher available for ytp+ studio and ytp+ cli, try it out [here
 	* All of the above, plus...
 	* [npm](https://nodejs.org/en/) (To install ytp+ cli)
 	* [LOVE](https://love2d.org/) (To launch the installer and ytp+ studio)
+	* [libcurl.so](https://curl.se/libcurl/) (To download anything)
+		* Available on Debian/Ubuntu platforms as the ``libcurl4-gnutls-dev`` package.
+
+!> Please be aware that non-Windows support is limited at this time, it is recommended to use the launcher to update the software and instead launch ytp+ studio directly from ``/LOVE/ytpplusstudio_1/game_x.x.x.love``.
 
 ytp+ studio will be downloaded/updated inside of your application data folder under ``/LOVE/ytpplusstudio_1/`` (This is also where its save data is stored)
 
