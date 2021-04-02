@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#404040",
-    "description": "ytp+, the nonsensical YTP generator. View documentation and download related software.",
+    "description": "ytp+, the nonsensical video generator. View documentation and download related software.",
     "icons": [{
       "src": "assets/manifest/icon16.png",
       "sizes": "16x16",
