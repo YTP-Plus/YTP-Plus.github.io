@@ -25,6 +25,11 @@ mkdir ./love
 cd ./love/ || exit 1
 mkdir ./ytpplusstudio_1
 cd ./ytpplusstudio_1 || exit 1 #needs to be in this place on non-windows platforms
+
+if [ -f "./YTPPlusStudio.love" ]; then
+    rm -rf "./YTPPlusStudio.love"
+fi
+
 wget https://github.com/YTP-Plus/YTPPlusStudio/releases/latest/download/YTPPlusStudio.love
 git clone https://github.com/YTP-Plus/YTPPlusCLI.git
 cd ./YTPPlusCLI || exit 1
