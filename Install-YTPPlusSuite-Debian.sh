@@ -43,4 +43,4 @@ cp "${OUTPUT}" ./ffmpeg
 cd ./../../.. #YTPPlusCLI
 #any issues with npm install? delete node_modules/ and retry
 cd ~/Desktop/ || exit 1
-read -p "ytp+ suite installation successful!"
+echo "ytp+ suite installation successful!"
